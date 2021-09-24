@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32f85894-88ef-4498-8bc1-bd5147d092ea" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/StudentStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/TestCloningStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/storage.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/utils/StudentStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/libraries/Maven__com_google_code_tld_generator_tld_generator_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/SMBMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/SMBMS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/bill/BillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/bill/BillDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/provider/ProviderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/provider/ProviderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/user/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/user/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/bill/BillServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/bill/BillServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/provider/ProviderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/provider/ProviderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/calendar/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/calendar/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/filter/filter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/filter/filter.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Game\Scoop\persist\maven\mvn-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Scoop/apps/maven/current" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="D:\Game\Scoop\persist\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="1oHtN7zfJz3AspiKoASQX6VdBGK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="service.view.auto.scroll.from.source" value="true" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="应用程序.StudentListEditor">
+    <configuration name="StudentListEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.gui.StudentListEditor" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersistency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.test.TestPersistency" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCloningStudents.testClone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="assignment.test.TestCloningStudents" />
+      <option name="METHOD_NAME" value="testClone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPersistency.compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment.test" />
+      <option name="MAIN_CLASS_NAME" value="assignment.test.TestPersistency" />
+      <option name="METHOD_NAME" value="compare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2d7a4b44-5ca4-4640-b4bf-46337cbf95e4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="28ada6cf-9386-4d13-aef5-28919d533591" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestPersistency.compare" />
+      <item itemvalue="JUnit.TestCloningStudents.testClone" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.43" />
+      <item itemvalue="应用程序.Test" />
+      <item itemvalue="应用程序.TestPersistency" />
+      <item itemvalue="应用程序.StudentListEditor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.StudentListEditor" />
+        <item itemvalue="JUnit.TestCloningStudents.testClone" />
+        <item itemvalue="JUnit.TestPersistency.compare" />
+        <item itemvalue="应用程序.TestPersistency" />
+        <item itemvalue="应用程序.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4bed22ad-699f-4c46-a6a2-2c3fe99ca60d" name="默认变更列表" comment="" />
+      <created>1612955302418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612955302418</updated>
+      <workItem from="1612955304614" duration="2421000" />
+      <workItem from="1612975359123" duration="3201000" />
+      <workItem from="1613115860539" duration="651000" />
+      <workItem from="1613379378989" duration="706000" />
+      <workItem from="1613410266297" duration="513000" />
+      <workItem from="1613535732387" duration="796000" />
+      <workItem from="1613655058935" duration="2757000" />
+      <workItem from="1613721330218" duration="1578000" />
+      <workItem from="1613991149899" duration="7195000" />
+      <workItem from="1614187807107" duration="1727000" />
+      <workItem from="1614270626208" duration="3048000" />
+      <workItem from="1614408714017" duration="1497000" />
+      <workItem from="1614414552526" duration="7139000" />
+      <workItem from="1614567291058" duration="9313000" />
+      <workItem from="1614781182936" duration="608000" />
+      <workItem from="1614821819561" duration="4861000" />
+      <workItem from="1615113868682" duration="1347000" />
+      <workItem from="1615116114210" duration="1050000" />
+      <workItem from="1615165443053" duration="1228000" />
+      <workItem from="1615363848869" duration="654000" />
+      <workItem from="1615433077175" duration="442000" />
+      <workItem from="1615452788647" duration="681000" />
+      <workItem from="1615565362885" duration="839000" />
+      <workItem from="1615566250899" duration="26000" />
+      <workItem from="1615566304406" duration="3177000" />
+      <workItem from="1615625366079" duration="144000" />
+      <workItem from="1616462407600" duration="578000" />
+      <workItem from="1616467907976" duration="85000" />
+      <workItem from="1619535372786" duration="11391000" />
+      <workItem from="1619600064206" duration="8419000" />
+      <workItem from="1619697077383" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.EOFException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

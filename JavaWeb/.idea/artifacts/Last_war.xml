@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Last:war">
+    <output-path>$PROJECT_DIR$/Last/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Last</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Last-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Last:war exploded" />
+    </root>
+  </artifact>
+</component>

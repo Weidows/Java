@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个指定的Dao/Mapper接口-->
+<mapper namespace="dao.UserMapper">
+  <!--这里id就是方法名,相当于实现方法-->
+  <select id="getUserList" resultType="pojo.User">
+    select *
+    from User
+  </select>
+
+  <select id="getUserById" resultType="pojo.User" parameterType="int">
+    select *
+    from mybatis.user
+    where id = #{id}
+  </select>
+
+  <insert id="addUser" parameterType="pojo.User">
+    insert into mybatis.user(id, name, pwd)
+    values (#{id}, #{name}, #{pwd})
+    # 对象中的属性可以被直接取出来(这里取得可以是传入的参数,也可以是传入对象的属性)
+  </insert>
+
+  <update id="updateUser" parameterType="pojo.User">
+    update mybatis.user
+    set name =#{name},
+        pwd=#{pwd}
+    where id = #{id}
+  </update>
+
+  <delete id="deleteUser" parameterType="int">
+    delete
+    from mybatis.user
+    where id = #{id}
+  </delete>
+
+  <!--通过USer传参的话,必须用User的属性名取出; 而通过map传参的话,属性名可以任意-->
+  <insert id="addUser2" parameterType="Map">
+    insert into mybatis.user(id, name, pwd)
+    values (#{userid}, #{username}, #{userpassword})
+  </insert>
+
+</mapper>

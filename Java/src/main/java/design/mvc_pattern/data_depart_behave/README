@@ -1,0 +1,11 @@
+/*
+ * @Author: Weidows
+ * @Date: 2020-07-20 08:34:25
+ * @LastEditors: Weidows
+ * @LastEditTime: 2020-10-20 17:47:16
+ * @FilePath: \Weidows\Java\src\main\java\design\mvc_pattern\data_depart_behave\README
+ */
+ 
+数据与表现分离,细胞自动机
+这个项目中表现类View与数据类Cell与操作类CellMachine分离
+增强封装`可拓展性

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个指定的Dao/Mapper接口-->
+<mapper namespace="dao.UserMapper">
+
+  <resultMap id="userResultMap" type="pojo.User">
+    <!--
+      property: User中的属性名
+      column: 数据库的字段名
+      只需要设置这条名字不一样的映射
+    -->
+    <result property="password" column="pwd"/>
+  </resultMap>
+
+  <select id="getUserList" resultMap="userResultMap">
+    select *
+    from User
+  </select>
+
+</mapper>

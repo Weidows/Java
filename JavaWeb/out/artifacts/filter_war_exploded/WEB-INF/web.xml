@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+  <servlet>
+    <servlet-name>show</servlet-name>
+    <servlet-class>servlet.Show</servlet-class>
+  </servlet>
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>filter.CharacterEncodingFilter</filter-class>
+  </filter>
+
+  <!--还是乱码的页面-->
+  <servlet-mapping>
+    <servlet-name>show</servlet-name>
+    <url-pattern>/show</url-pattern>
+  </servlet-mapping>
+  <!--通过过滤器解决了乱码的页面-->
+  <servlet-mapping>
+    <servlet-name>show</servlet-name>
+    <url-pattern>/servlet/show</url-pattern>
+  </servlet-mapping>
+  <!--filter的地址映射-->
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <url-pattern>/servlet/*</url-pattern>
+  </filter-mapping>
+
+  <!--注册监听器-->
+  <listener>
+    <listener-class>listener.OnlineCountListener</listener-class>
+  </listener>
+
+  <!-- ================================================================= -->
+  <!-- 下面为demo的注册信息 -->
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>demo.Servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>demo.Servlet.Logout</servlet-class>
+  </servlet>
+  <filter>
+    <filter-name>sysFilter</filter-name>
+    <filter-class>demo.Filter.SysFilter</filter-class>
+  </filter>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/demo/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/demo/logout</url-pattern>
+  </servlet-mapping>
+  <filter-mapping>
+    <filter-name>sysFilter</filter-name>
+    <url-pattern>/demo/sys/*</url-pattern>
+  </filter-mapping>
+</web-app>

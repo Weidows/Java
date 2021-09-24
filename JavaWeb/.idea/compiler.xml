@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-1" />
+        <module name="filter" />
+        <module name="demo-0" />
+        <module name="Last" />
+        <module name="JSP" />
+        <module name="JDBC" />
+        <module name="SMBMS" />
+        <module name="demo-5" />
+        <module name="demo-4" />
+        <module name="demo-3" />
+        <module name="demo-2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-0" target="1.7" />
+      <module name="demo-1" target="1.7" />
+      <module name="demo-2" target="1.7" />
+      <module name="demo-3" target="1.7" />
+      <module name="demo-4" target="1.7" />
+      <module name="demo-5" target="1.7" />
+      <module name="filter" target="11" />
+      <module name="JavaWeb" target="1.8" />
+      <module name="JDBC" target="11" />
+      <module name="JSP" target="1.7" />
+      <module name="Last" target="8" />
+      <module name="SMBMS" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
