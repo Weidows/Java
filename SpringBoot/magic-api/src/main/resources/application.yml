@@ -1,0 +1,12 @@
+
+server:
+  port: 8888
+
+magic-api:
+  web: /magic
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: remote
+    password: 2333
+    url: jdbc:mariadb://192.168.114.128:3306
