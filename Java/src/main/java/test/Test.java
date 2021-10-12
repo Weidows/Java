@@ -36,14 +36,13 @@
  * @Author: Weidows
  * @Date: 2020-05-03 01:18:34
  * @LastEditors: Weidows
- * @LastEditTime: 2021-09-08 20:42:53
+ * @LastEditTime: 2021-10-12 12:05:34
  * @FilePath: \Java\Java\src\main\java\test\Test.java
  */
 package test;
 
 public class Test {
   public static void main(String[] args) {
-    String s = null;
-    System.out.println(s + "abc");
+    System.out.println(Math.pow(10, 0));
   }
 }
