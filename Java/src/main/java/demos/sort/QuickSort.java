@@ -2,26 +2,19 @@
  * @Author: Weidows
  * @Date: 2020-11-27 10:07:22
  * @LastEditors: Weidows
- * @LastEditTime: 2021-09-28 10:45:03
- * @FilePath: \Java\src\main\java\demos\quick_sort\QuickSort.java
+ * @LastEditTime: 2021-10-19 17:42:18
+ * @FilePath: \Java\Java\src\main\java\demos\sort\QuickSort.java
  * @Description:快速排序(快排)
  */
-package demos.quick_sort;
+package demos.sort;
 
 public class QuickSort {
-
   public static void main(String[] args) {
     // 创建测试数组
-    int[] arr = new int[] { 19, 97, 9, 17, 1, 8 };
-
-    System.out.println("排序前：");
-    showArray(arr); // 打印数组
+    int[] arr = new int[] { 49, 38, 65, 97, 76, 13, 27, 49, 8, 10 };
 
     // 调用快排接口
     quickSort(arr);
-
-    System.out.println("\n" + "排序后：");
-    showArray(arr);// 打印数组
   }
 
   /**
@@ -36,12 +29,6 @@ public class QuickSort {
     sort(array, 0, len - 1);
   }
 
-  /**
-   * 快排核心算法，递归实现
-   * @param array
-   * @param left
-   * @param right
-   */
   public static void sort(int[] array, int left, int right) {
     if (left > right)
       return;
@@ -70,20 +57,17 @@ public class QuickSort {
     array[left] = array[i];
     array[i] = base;
 
+    showArray(array);// 打印数组
     // 递归，继续向基准的左右两边执行和上面同样的操作
     // i的索引处为上面已确定好的基准值的位置，无需再处理
     sort(array, left, i - 1);
     sort(array, i + 1, right);
   }
 
-  /**
-   * @description:
-   * @param {int[]} num
-   * @return {*}
-   */
   private static void showArray(int[] num) {
     for (int i = 0; i < num.length; i++) {
       System.out.print(num[i] + " ");
     }
+    System.out.println();
   }
 }
