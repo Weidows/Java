@@ -4,42 +4,274 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f85894-88ef-4498-8bc1-bd5147d092ea" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/StudentStorageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/TestCloningStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/test/storage.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/utils/StudentStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/dataSources/6d1af9a2-1350-418a-8f87-ed87e9cbbdfe/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/libraries/Maven__com_google_code_tld_generator_tld_generator_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+    <list default="true" id="32f85894-88ef-4498-8bc1-bd5147d092ea" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/artifacts/SMBMS_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/SMBMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/SMBMS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/bill/BillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/bill/BillDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/provider/ProviderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/provider/ProviderDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/user/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/dao/user/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/bill/BillServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/bill/BillServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/provider/ProviderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/provider/ProviderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/servlet/user/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/java/com/weidows/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/calendar/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/SMBMS/src/main/webapp/calendar/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/filter/filter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/filter/filter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Annotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Annotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Demo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Demo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/reflection/PerformanceInfluence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo1/PerformanceInfluence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/FileIoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/FileIoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/IoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/IoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/StreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/StreamFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/images/20180824130849922.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/images/20180824130849922.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/images/20181222210911568.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/images/20181222210911568.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/images/20181222211807896.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/images/20181222211807896.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream/images/Stream_IO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream/images/Stream_IO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream_application/Object.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream_application/Object.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream_application/ObjectStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream_application/ObjectStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/stream_application/SocketStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/stream_application/SocketStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/text_io_stream/20180824131322820.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/text_io_stream/20180824131322820.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/text_io_stream/20181222214004332.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/text_io_stream/20181222214004332.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/text_io_stream/TextStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/text_io_stream/TextStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/august/text_io_stream/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/text_io_stream/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/animal/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/animal/Rabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/cell/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/field/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/field/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/field/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/control_inversion/fox_and_rabbit/FoxAndRabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/exception/(82).flv_20201020_002004.217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/exception/ArrayIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/exception/LatestArrayIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/exception/NewArrayIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/exception/面向对象程序设计——Java语言_中国大学MOOC(慕课)_2.mp4_20200725_221708.101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/foreach/foreach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/foreach/foreach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/hashmap/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/hashmap/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/collections/hashmap/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/dome/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/dome/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/dome/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/dome/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/inheritance_and_polymorphism/dome/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/animal/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/animal/Rabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/cell/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/field/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/field/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/field/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/fox_and_rabbit/FoxAndRabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/interface/Cells173751.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/interface/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/my_interface/interface/面向对象程序设计——Java语言_中国大学MOOC(慕课)_2.mp4_20200720_142227.456.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/myabstract/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/object_container/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/collections/object_container/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/july/typesystem/dome/VideoGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/array/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/collections/array/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/function_type_object/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/object_interaction/clock/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/object_interaction/display/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/string_package/CSDN_1595811274134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/string_package/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/type_variable/Chinese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/type_variable/newclock/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/june/type_variable/newdisplay/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/binary_tree_switch/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/calculating_max_common_divisor/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/data_type/PrimitiveTypeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/float_num_compare/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/ioput_calculating/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/ioput_calculating/输入输出&amp;&amp;计算/aHR0cHM6Ly9pbWcyMDIwLmNuYmxvZ3MuY29tL2Jsb2cvMTUxNTExMS8yMDIwMDMvMTUxNTExMS0yMDIwMDMyNzEyNTk0NjMzNC0xNjc1NjE0MzE2LnBuZw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/object_generator/Puppy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/type/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/type/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/type/MultiClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/type/MultiClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/may/while_cycle_and_example/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/proxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/proxy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/proxy/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/proxy/ProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/proxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/proxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/proxy/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/proxy/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/proxy/static_proxy/StaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/proxy/static_proxy/StaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/Reflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/images/(113).flv_20201101_112027.893.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/images/(113).flv_20201101_112027.893.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/images/(113).flv_20201101_112118.635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/images/(113).flv_20201101_112118.635.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/images/(113).flv_20201101_112412.435.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/images/(113).flv_20201101_112412.435.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/person/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/person/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/person/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/reflection/person/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/reflection/demo2/person/Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/bank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/bank/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/bank/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/bank/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/bank/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/bank/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/basic/TestExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/basic/TestExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/basic/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/basic/TestRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/downloader/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/downloader/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/downloader/Downloader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/downloader/Downloader2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(125).flv_20201103_173828.540.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(125).flv_20201103_173828.540.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(127).flv_20201103_183543.940.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(127).flv_20201103_183543.940.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(128).flv_20201103_190920.012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(128).flv_20201103_190920.012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(128).flv_20201103_191013.043.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(128).flv_20201103_191013.043.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(129).flv_20201103_221449.706.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(129).flv_20201103_221449.706.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/images/(130).flv_20201103_221842.611.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/images/(130).flv_20201103_221842.611.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/november/thread/producer_and_customer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/multi_thread/thread/producer_and_customer/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/enumerate/(95).flv_20201026_232038.670.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/collections/enumerate/(95).flv_20201026_232038.670.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/enumerate/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/collections/enumerate/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/generic/Generic_class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/generic/Generic_interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/generic/Generic_method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/generic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/generic/Wild_card_character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/inner_class/OuterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/inner_class/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/1/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/1/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/BufferStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/BufferStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/FileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/FileApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/File_Io.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/File_Io.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/IOStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/IOStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/ObjectStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/ObjectStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/RandomAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/RandomAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/StandardIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/StandardIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/TransformCharset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/TransformCharset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/TransformStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/TransformStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(101).flv_20201029_082154.423.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(101).flv_20201029_082154.423.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(109).flv_20201031_232959.149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(109).flv_20201031_232959.149.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(109).flv_20201031_233646.923.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(109).flv_20201031_233646.923.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(110).flv_20201031_234408.786.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(110).flv_20201031_234408.786.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(97).flv_20201026_233720.035.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(97).flv_20201026_233720.035.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(97).flv_20201026_233943.357.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(97).flv_20201026_233943.357.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/images/(98).flv_20201028_232829.594.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/images/(98).flv_20201028_232829.594.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/october/stream/object.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/stream/the_last/object.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/about_final/Final.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/anonymous_object/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/anonymous_object/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/anonymous_object/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/basic_data_type/Basic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/basic_data_type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/basic_data_type/包装类.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jdbc/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/jdbc/demo0/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/Instanceof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/TestTransfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/jvm_model/TestTransfer_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/new_object/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/new_object/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/new_object/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/object_casting/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/object_casting/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/object_casting/String对象的创建.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/object_casting/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/object_casting/对象造型.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/variable_parameter/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/variable_parameter/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/twenty/september/variable_parameter/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/shape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/shape/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/shape/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/student/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/done/student/Undergraduate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/five/ListSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/five/ListSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/five/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/five/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/seven/Seven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/seven/Seven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/six/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/six/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/six/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/six/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/six/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/six/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/two/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/two/Paint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/two/PaintThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/two/PaintThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/two/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/two/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/two/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/two/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/1/two/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/1/two/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/Q4/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/Q4/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/Q4/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/Q4/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q4/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q4/Logging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q6/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q6/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q6/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q7/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q7/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q7/CarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q7/CarUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q7/CarUtils_refactored.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q7/CarUtils_refactored.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q8/EnglishSpanishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q8/EnglishSpanishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q8/EnglishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q8/EnglishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q8/MandarinEnglishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q8/MandarinEnglishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q8/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q8/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/java/Q8/SpanishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/java/Q8/SpanishTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/159251-test/src/test/java/Q6/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/159251-test/src/test/java/Q6/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/FileSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/FindAndReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/FindAndReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/Format.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/JNotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/JNotepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/java/editor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/java/editor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/works/poly_technic_university/text_editor/src/main/resources/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/河工大/text_editor/src/main/resources/settings.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +295,24 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Game\Scoop\persist\maven\mvn-repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../Scoop/apps/maven/current" />
+        <option name="localRepository" value="D:\Scoop\persist\maven\mvn-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Scoop/apps/maven/current" />
         <option name="usePluginRegistry" value="true" />
-        <option name="userSettingsFile" value="D:\Game\Scoop\persist\maven\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\Scoop\persist\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="11" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="1oHtN7zfJz3AspiKoASQX6VdBGK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,7 +321,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -100,21 +337,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web" />
-    <property name="project.structure.last.edited" value="工件" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="service.view.auto.scroll.from.source" value="true" />
     <property name="service.view.auto.scroll.to.source" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="应用程序.StudentListEditor">
-    <configuration name="StudentListEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.gui.StudentListEditor" />
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager" selected="应用程序.MergeSort">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demos.sort.MergeSort" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.gui.*" />
+          <option name="PATTERN" value="demos.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
+    <configuration name="StudentListEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.gui.StudentListEditor" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="assignment.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,24 +609,26 @@
       <item itemvalue="JUnit.TestPersistency.compare" />
       <item itemvalue="JUnit.TestCloningStudents.testClone" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.43" />
-      <item itemvalue="应用程序.Test" />
       <item itemvalue="应用程序.TestPersistency" />
       <item itemvalue="应用程序.StudentListEditor" />
+      <item itemvalue="应用程序.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MergeSort" />
         <item itemvalue="应用程序.StudentListEditor" />
         <item itemvalue="JUnit.TestCloningStudents.testClone" />
         <item itemvalue="JUnit.TestPersistency.compare" />
         <item itemvalue="应用程序.TestPersistency" />
-        <item itemvalue="应用程序.Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="4bed22ad-699f-4c46-a6a2-2c3fe99ca60d" name="默认变更列表" comment="" />
       <created>1612955302418</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -418,6 +664,8 @@
       <workItem from="1619535372786" duration="11391000" />
       <workItem from="1619600064206" duration="8419000" />
       <workItem from="1619697077383" duration="838000" />
+      <workItem from="1648555818144" duration="1376000" />
+      <workItem from="1648557233053" duration="451000" />
     </task>
     <servers />
   </component>
@@ -434,7 +682,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
