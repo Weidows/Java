@@ -42,7 +42,7 @@ public enum Season implements Interfaces {
     /**
      *  与类相同,枚举实现的方法也必须通过实例化的对象调用,对象.方法()
      */
-    System.out.println("there in Season.test() : void");
+    System.out.println("there in Season.prodsmile.test() : void");
   }
 }
 

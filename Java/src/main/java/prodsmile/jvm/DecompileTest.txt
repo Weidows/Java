@@ -1,0 +1,34 @@
+Compiled from "DecompileTest.java"
+public class prodsmile.jvm.DecompileTest {
+  public static java.lang.String s;
+
+  public prodsmile.jvm.DecompileTest();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+
+  public java.lang.String add(int, int);
+    Code:
+       0: iload_1
+       1: iload_2
+       2: iadd
+       3: bipush        100
+       5: imul
+       6: istore_3
+       7: iload_3
+       8: getstatic     #7                  // Field s:Ljava/lang/String;
+      11: invokedynamic #13,  0             // InvokeDynamic #0:makeConcatWithConstants:(ILjava/lang/String;)Ljava/lang/String;
+      16: areturn
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: return
+
+  static {};
+    Code:
+       0: ldc           #17                 // String @Hello
+       2: putstatic     #7                  // Field s:Ljava/lang/String;
+       5: return
+}

@@ -4,7 +4,7 @@
  * @Date: 2021-06-06 10:57:19
  * @LastEditors: Weidows
  * @LastEditTime: 2021-06-06 11:15:54
- * @FilePath: \Weidows\Java\src\main\java\test\two\PaintThings.java
+ * @FilePath: \Weidows\Java\src\main\java\prodsmile.test\two\PaintThings.java
  * @Description:
  * @!: *********************************************************************
  */

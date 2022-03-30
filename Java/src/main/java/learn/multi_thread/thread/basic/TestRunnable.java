@@ -3,7 +3,7 @@
  * @Date: 2020-11-03 17:17:15
  * @LastEditors: Weidows
  * @LastEditTime: 2021-02-11 01:22:38
- * @FilePath: \Weidows\Java\src\main\java\twenty\november\thread\basic\TestRunnable.java
+ * @FilePath: \Weidows\Java\src\main\java\twenty\november\thread\prodsmile.basic\TestRunnable.java
  * @Description:implements Runnable
  */
 package learn.multi_thread.thread.basic;

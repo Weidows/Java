@@ -3,7 +3,7 @@
  * @Date: 2020-11-03 10:59:14
  * @LastEditors: Weidows
  * @LastEditTime: 2021-02-11 01:19:58
- * @FilePath: \Weidows\Java\src\main\java\twenty\november\thread\basic\Test.java
+ * @FilePath: \Weidows\Java\src\main\java\twenty\november\thread\prodsmile.basic\Test.java
  * @Description:main
  */
 package learn.multi_thread.thread.basic;

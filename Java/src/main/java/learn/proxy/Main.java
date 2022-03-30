@@ -20,7 +20,7 @@ public class Main {
 
     /**
      * ! Demand
-     * <p>Add something to run before test()
+     * <p>Add something to run before prodsmile.test()
      * <p>Print's outputing method name be the same as who has called
      */
 
